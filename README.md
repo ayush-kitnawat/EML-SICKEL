@@ -1,5 +1,22 @@
 # SICKLE EML Project: Temporal Importance for Paddy Yield Estimation
 
+## Latest reproducible findings (9 November 2026)
+
+The cutoff-safe 15–90-day experiments, within-plot differences, matched
+2019/2020 transfer, and **one frozen, reserved day-45 comparison** are complete.
+See [roadmap execution and safeguards](ROADMAP_RUN.md) for the research protocol,
+limitations, and full aggregate results. Machine-readable, non-identifying
+scores are saved in [aggregate metrics](results/roadmap_aggregate_metrics.csv)
+and [paired validation differences](results/validation_paired_differences.csv).
+
+On the 37-row / 14-plot reserved validation cohort, agronomic Ridge achieved
+533.23 RMSE (kg/acre), PCA + Ridge with S1/S2 achieved 548.13, and the
+controls-only Extra Trees benchmark achieved 505.30. **Satellite inputs did not
+improve the frozen EML prediction benchmark.** Prior work had already examined
+the official validation set for Ridge, so it is not a pristine independent
+external validation cohort. Raw data, row-level labels/predictions, and
+generated outputs are deliberately not tracked by Git.
+
 ## Research question
 
 Which **observation periods** and **sensor-stage combinations** are most predictive of

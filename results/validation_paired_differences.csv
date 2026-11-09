@@ -1,0 +1,4 @@
+reference,candidate,rmse_improvement_over_reference,conditional_plot_bootstrap_95pct_low,conditional_plot_bootstrap_95pct_high,independent_plots,bootstrap_replicates,bootstrap_seed,warning
+ridge_controls,pca_ridge_s1s2,-14.8965733,-23.2575985,-4.13079807,14,4000,20261109,Fixed fitted predictions; does not account for selection/refitting/prior Ridge exposure
+ridge_controls,partial_elastic_s1s2,-1.16584421,-22.4608647,40.0450085,14,4000,20261109,Fixed fitted predictions; does not account for selection/refitting/prior Ridge exposure
+ridge_controls,extra_trees_controls,27.9325243,-29.6128577,101.33782,14,4000,20261109,Fixed fitted predictions; does not account for selection/refitting/prior Ridge exposure
